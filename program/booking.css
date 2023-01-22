@@ -1,0 +1,85 @@
+/*Font Righteous*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/*Font Poppins Semibold*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/*Font Poppins Regular*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+}.ket{
+    font-family: "Righteous", cursive;
+    letter-spacing: 0.8pt;
+    margin-left: 530px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}.table1{
+    font-family: "Poppins", sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 54%;
+    border: 1px solid #f2f5f7;
+    margin-left: 315px;
+    margin-top: 30px;
+}.table1 tr th{
+    background: #ccee66;
+    color: #161616;
+    font-weight: 600;
+}.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}.table1, td{
+    font-size: 12pt;
+}.table1 tr:hover {
+    background-color: #e8e5f2;
+}.table1 tr:nth-child(even) {
+    background-color: #f8f8f8;
+}.ket1{
+    font-family: "Righteous", cursive;
+    letter-spacing: 0.8pt;
+    margin-left: 455px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}.table2{
+    font-family: "Poppins", sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 30%;
+    border: 1px solid #f2f5f7;
+    margin-left: 22px;
+    margin-top: 30px;
+}.table2 tr th{
+    background: #ccee66;
+    color: #161616;
+    font-weight: 600;
+}.table2, th, td {
+    padding: 8px 16px;
+    text-align: center;
+}.table2, td{
+    font-size: 12pt;
+}.table2 tr:hover {
+    background-color: #e8e5f2;
+}.table2 tr:nth-child(even) {
+    background-color: #f8f8f8;
+}.booking-btn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    border:0;
+	background: #9274F4;
+	color: #ffffff;
+	border-radius: 8px;
+	width: 50px;
+	height: 26px;
+	font-size: 11px;
+	cursor: pointer;
+}.booking-btn:hover{
+    background: #6642dd;
+}footer {
+    font-family: "Righteous", cursive;
+    padding: 25px;
+    color: #161616;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top:244px;
+}

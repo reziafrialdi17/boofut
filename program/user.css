@@ -1,0 +1,69 @@
+/*Font Righteous*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/*Font Poppins Semibold*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/*Font Poppins Regular*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+}.jumbotron {
+    font-family: "Righteous", cursive;
+    letter-spacing: 0.5pt;
+    padding: 50px;
+    background-image: url("../asset/Frame\ 35.png");
+    background-color: #6950B5;
+    font-size: 32px;
+    color: #ffffff;
+}nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+}nav {
+    background-color: #967be9;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+}nav a {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+}nav a:hover {
+    color:#D7FF63;
+    cursor: pointer;
+}.logout{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}nav .logout:hover{
+    font-weight: bold;
+    color: #df3636;
+    cursor:pointer;
+}ul li {
+    list-style-type: none;
+    text-align: left;
+}.image{
+    background-image: url("../asset/Frame\ 38.png");
+}.banner{
+    width: 800px;
+    margin-left: 200px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48pt;
+    color: #D7FF63;
+    text-align: center;
+}footer {
+    font-family: "Righteous", cursive;
+    padding: 25px;
+    color: #161616;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 400px;
+}
